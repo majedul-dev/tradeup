@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #002f34;
+  --white-color: #fff;
+  --black-color: #000;
+  --light-gray: #002f3408;
+  --text-color: #002f34;
+  --border-radius: 3px;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--black-color);
+  margin: 0;
+}
+/* textarea {
+  width: 50%;
+  display: block;
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  margin: 1rem 0;
+}
+select {
+  width: 50%;
+  display: block;
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  margin: 1rem 0;
+} */
+.app {
+  min-height: 85vh;
+}
+/* .container {
+  width: 90%;
+  margin: 0 auto;
+} */
+.section {
+  padding: 2rem 0;
+}
+.formStyle {
+  background: var(--white-color);
+  box-shadow: 3px 3px 15px 5px rgba(0, 0, 0, 0.1);
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  margin: 2rem 0;
+  border-radius: var(--border-radius);
+}
+.formStyle > .form-group {
+  width: 100% !important;
+  margin: 0.5rem 0;
+}
+.formStyle > .form-group > input {
+  width: 100% !important;
+}
+.red {
+  color: #ff0000;
+}
+.green {
+  color: #00a156;
+}

@@ -1,0 +1,114 @@
+h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+h5 {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.productdetail {
+  /* background: var(--light-gray); */
+  padding: 2rem 0;
+}
+.productdetail__carousel {
+  margin-bottom: 1rem;
+}
+.productdetail__carouselItem {
+  position: relative;
+  height: 60vh;
+}
+.productdetail__carouselItem > img {
+  position: absolute;
+  height: 100%;
+}
+.productdetail__description,
+.productdetail__info,
+.productdetail__sellerInfo,
+.productdetail__sellerLocation {
+  background: var(--white-color);
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  border-radius: var(--border-radius);
+  box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.productdetail__description > p {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.productdetail__info > .info--top {
+  display: flex;
+  justify-content: space-between;
+}
+.productdetail__info > .info--top > div > h2 {
+  font-size: 1.5rem;
+}
+.productdetail__info > .info--top > div > p {
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(0, 47, 52, 0.64);
+}
+.productdetail__info > .info--bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.productdetail__info > .info--bottom > small {
+  font-size: 0.8rem;
+  color: #666;
+}
+.productdetail__sellerInfo > h3 {
+  font-size: 1.2rem;
+}
+.sellerInfo--user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sellerInfo--user > .user--profile {
+  cursor: pointer;
+}
+.sellerInfo--user > div {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+.sellerInfo--user > div > img {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+.sellerInfo--user > div > div > h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+.sellerInfo--chatBtn {
+  display: block;
+  width: 100%;
+  background: var(--white-color);
+  padding: 0.5rem;
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.sellerInfo--chatBtn:hover {
+  color: var(--text-color);
+  outline: 3px solid var(--primary-color);
+}
+.productdetail__sellerLocation > small {
+  font-size: 0.8rem;
+  color: #666;
+}
+.productdetail__sellerLocation > img {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+.offer_card {
+  border: none;
+  border-radius: var(--border-radius);
+  box-shadow: 1px 0px 8px rgba(0, 0, 0, 0.1);
+}

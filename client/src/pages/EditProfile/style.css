@@ -1,0 +1,34 @@
+.editProfile {
+}
+.editProfile__saveBtn {
+  padding: 0.4rem 0.8rem;
+  border: 4px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  background: var(--primary-color);
+  color: var(--white-color);
+  font-weight: 600;
+}
+.editProfile__saveBtn:hover {
+  background: var(--white-color);
+  color: var(--text-color);
+}
+.editProfile__basicInfo {
+  padding: 1rem 0;
+  border-bottom: 2px solid #ddd;
+}
+.editProfile__basicInfo > textarea {
+  width: 50%;
+  display: block;
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  margin: 1rem 0;
+}
+.editProfile__contactInfo {
+  padding: 1rem 0;
+}
+.editProfile__cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

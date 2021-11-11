@@ -1,0 +1,109 @@
+.hero {
+  height: 80vh;
+  width: 100%;
+  background-image: url("../../images/bgg.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero--content > h1,
+.hero--content > h2,
+.hero--content > h3 {
+  color: #fff;
+}
+.hero--content > h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: capitalize;
+  font-size: 5rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.hero--content > h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 4rem;
+  margin: 0.5rem 0;
+}
+.hero--content > button {
+  background: #f41c0d;
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.6rem 0.8rem;
+  margin-top: 1rem;
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+.hero--content > h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+.hero--banner {
+  /* margin-top: -15rem; */
+  height: 100%;
+  margin-bottom: 0;
+}
+.product {
+  cursor: pointer;
+  height: 18rem;
+}
+.product--top {
+  display: flex;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+}
+.product--img {
+  width: 70%;
+  height: 8rem;
+  margin: 0 auto;
+}
+.product--saveicon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--black-color);
+}
+.product--content > h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--black-color);
+  margin-bottom: 0.3rem;
+  text-transform: capitalize;
+}
+.product--content > p {
+  margin: 0;
+}
+.product--footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+.product--footer > small {
+  display: flex;
+  justify-content: flex-end;
+  color: #999;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
+.page__item {
+  display: flex;
+  background: rgb(201, 205, 255);
+  border: 2px solid var(--primary-color);
+  margin: 0 2px;
+}
+.page__link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.page__link:hover {
+  color: rgb(131, 131, 131);
+  text-decoration: none;
+}

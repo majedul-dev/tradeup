@@ -1,0 +1,25 @@
+.categories {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+  /* padding: 0.3rem; */
+}
+.categories__items {
+  display: flex;
+  align-items: center;
+}
+.categories__items > li {
+  list-style: none;
+  margin: 0.4rem 0.5rem;
+  cursor: pointer;
+}
+.categories__items > li > a {
+  display: block;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-color);
+  text-transform: capitalize;
+  border: none;
+}
+.categories__items > li > a:hover {
+  color: #009cb8;
+}

@@ -1,0 +1,21 @@
+.profile {
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+.profile__userInfo {
+  display: flex;
+  align-items: center;
+  background: var(--white-color);
+  width: 80%;
+  margin-top: 2rem;
+  padding: 3rem;
+  border-radius: var(--border-radius);
+}
+.profile__userInfo > img {
+  height: 6rem;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+.profile__postedAd {
+  margin-top: 2rem;
+}
